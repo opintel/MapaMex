@@ -7,8 +7,10 @@
     url: "partials/mxGeo.json",
     async: false,
     success: function(data){
-      mxData = data;
-      mapaMX();
+      if (validaJsonMap(data)){
+        mxData = data;
+        mapaMX();
+      }
     }
   });
 
@@ -211,3 +213,53 @@
         };
         legend.addTo(map);
       };
+
+
+  //Valida Json
+  function validaJsonMap(json){
+      var valores = json['features'],
+          json_fields = ['type', 'geometry', 'properties'];
+          json_types = {'type': 'string', 'geometry': 'object', 'properties': 'object'};
+
+      /*var valores1 = json['features'],
+        valores = valores1['properties'],
+        json_fields = ['estado', 'grafica', 'porcentaje_pop','valor_info'];
+        json_types = {'estado': 'string', 'grafica': 'array', 'porcentaje_pop': 'number', 'valor_info': 'string'};*/
+
+      if(!json['etiqueta_info']){
+          alert("Error en la estructura del JSON: Se necesita especificar la etiqueta de información");
+          return false;
+      }
+
+      if(!json['etiqueta_pop']){
+          alert("Error en la estructura del JSON: Se necesita especificar la etiqueta de popup");
+          return false;
+      }
+
+      if(!json['ejex']){
+          alert("Error en la estructura del JSON: Se necesita especificar la leyenda del eje X para la gráfica de información");
+          return false;
+      }
+
+      if(!json['ejey']){
+          alert("Error en la estructura del JSON: Se necesita especificar la leyenda del eje Y para la gráfica de información");
+          return false;
+      }
+
+      for(var elemento in valores){
+          var llaves_elemento = Object.keys(valores[elemento]);
+          for(var k in llaves_elemento ){
+              if(!json_fields.some(elem => elem == llaves_elemento[k])){
+                  alert("Error en la estructura del JSON: Campo invalido: " + llaves_elemento[k]);
+                  return false;
+              }
+
+              if(typeof valores[elemento][llaves_elemento[k]] !== json_types[llaves_elemento[k]]){
+                  alert("Error en la estructura del JSON: El campo " + llaves_elemento[k] + " debe ser de tipo " + json_types[llaves_elemento[k]]);
+                  return false;   
+              }
+          }
+      }
+
+      return true;
+  }
