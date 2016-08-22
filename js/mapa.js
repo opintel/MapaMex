@@ -188,9 +188,9 @@
         //info.update();
       }
 
-      var popup = L.popup();
-
       function onMapClick(e) {
+        dsblHov = false;
+        $('#mapMX .leaflet-right .leaflet-control').css('border','none');
         info.update();
       }
       map.on('click', onMapClick);
@@ -212,6 +212,7 @@
 
         };
         legend.addTo(map);
+        var popup = L.popup();
       };
 
 
