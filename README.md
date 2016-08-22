@@ -1,6 +1,6 @@
-# MapaMex
+# Plantilla de Mapa
 
-Plantilla de visualización tipo mapa plot.<br>
+Plantilla de visualización para mapa de la república mexicana.<br>
 Descripción de archivos principales:
 
 - `mapa.html` <br>- Archivo html en el que se importan principalmente:
