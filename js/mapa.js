@@ -45,7 +45,7 @@
 
     function style(feature) {
       return {
-        fillColor: getColor(feature.properties.grafica[0].valor),
+        fillColor: getColor(feature.properties.porcentaje_pop),
         weight: 1,
         opacity: 1,
         color: '#FFFFFF',
