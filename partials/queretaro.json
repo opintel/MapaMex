@@ -1,0 +1,35 @@
+{
+ "valor_info": "22",
+ "porcentaje_pop": 32,
+ "estado": "Querétaro",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 210
+   },
+   {
+     "tiempo": "2009",
+     "valor": 200
+   },
+   {
+     "tiempo": "2010",
+     "valor": 190
+   },
+   {
+     "tiempo": "2011",
+     "valor": 181
+   },
+   {
+     "tiempo": "2012",
+     "valor": 170
+   },
+   {
+     "tiempo": "2013",
+     "valor": 160
+   },
+   {
+     "tiempo": "2014",
+     "valor": 150
+   }
+ ]
+}

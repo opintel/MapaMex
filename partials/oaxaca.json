@@ -1,0 +1,35 @@
+{
+ "valor_info": "20",
+ "porcentaje_pop": 33,
+ "estado": "Oaxaca",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 283
+   },
+   {
+     "tiempo": "2009",
+     "valor": 274
+   },
+   {
+     "tiempo": "2010",
+     "valor": 267
+   },
+   {
+     "tiempo": "2011",
+     "valor": 250
+   },
+   {
+     "tiempo": "2012",
+     "valor": 247
+   },
+   {
+     "tiempo": "2013",
+     "valor": 230
+   },
+   {
+     "tiempo": "2014",
+     "valor": 225
+   }
+ ]
+}

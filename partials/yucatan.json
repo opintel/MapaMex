@@ -1,0 +1,35 @@
+{
+  "valor_info": "31",
+  "porcentaje_pop": 82,
+  "estado": "Yucatán",
+  "grafica": [
+    {
+      "tiempo": "2008",
+      "valor": 127
+    },
+    {
+      "tiempo": "2009",
+      "valor": 119
+    },
+    {
+      "tiempo": "2010",
+      "valor": 110
+    },
+    {
+      "tiempo": "2011",
+      "valor": 98
+    },
+    {
+      "tiempo": "2012",
+      "valor": 84
+    },
+    {
+      "tiempo": "2013",
+      "valor": 78
+    },
+    {
+      "tiempo": "2014",
+      "valor": 64
+    }
+  ]
+}

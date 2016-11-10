@@ -1,0 +1,35 @@
+{
+ "valor_info": "08",
+ "porcentaje_pop": 42,
+ "estado": "Chihuahua",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 71
+   },
+   {
+     "tiempo": "2009",
+     "valor": 61
+   },
+   {
+     "tiempo": "2010",
+     "valor": 51
+   },
+   {
+     "tiempo": "2011",
+     "valor": 44
+   },
+   {
+     "tiempo": "2012",
+     "valor": 32
+   },
+   {
+     "tiempo": "2013",
+     "valor": 22
+   },
+   {
+     "tiempo": "2014",
+     "valor": 14
+   }
+ ]
+}

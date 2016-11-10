@@ -1,0 +1,35 @@
+{
+  "valor_info": "09",
+  "porcentaje_pop": 64,
+  "estado": "Distrito Federal",
+  "grafica": [
+    {
+      "tiempo": "2008",
+      "valor": 29
+    },
+    {
+      "tiempo": "2009",
+      "valor": 23
+    },
+    {
+      "tiempo": "2010",
+      "valor": 85
+    },
+    {
+      "tiempo": "2011",
+      "valor": 212
+    },
+    {
+      "tiempo": "2012",
+      "valor": 372
+    },
+    {
+      "tiempo": "2013",
+      "valor": 413
+    },
+    {
+      "tiempo": "2014",
+      "valor": 734
+    }
+  ]
+}

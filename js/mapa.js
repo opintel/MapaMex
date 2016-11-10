@@ -3,11 +3,28 @@
 
   //Carga geoJson de Mexico
   var mxData;
+  var stateGeo;
   $.ajax({
     url: "partials/mxGeo.json",
     async: false,
     success: function(data){
       if (validaJsonMap(data)){
+        $.each( data.features, function( key, value ) {
+          var tagName = value.properties.tag;
+          if (value.properties.tag == tagName) {
+            var nameState = value.properties.tag;
+            var properties = value.properties;
+
+            $.ajax({
+              url: "partials/"+nameState+".json",
+              async: false,
+              success: function(data){
+                stateGeo = data;
+              }
+            });
+            properties.valores.push(stateGeo);                       
+          }
+        });
         mxData = data;
         mapaMX();
       }
@@ -65,7 +82,7 @@
     }
     var dsblHov = false;
     function disableHover(e) {
-      var dataPop = e.target.feature.properties;
+      var dataPop = e.target.feature.properties.valores[0];
       popup
         .setLatLng(e.latlng)
         .setContent("<h5 class='title-pop'><span>Estado: </span>" + dataPop.estado + "</h5><hr><h5>"+ mxData.etiqueta_pop +" <b>"+dataPop.porcentaje_pop+"%</b></h5>")
@@ -78,7 +95,6 @@
         dsblHov = false;
         $('#mapMX .leaflet-right .leaflet-control').css('border','none');
       }
-      //console.log(dsblHov);
     }
 
     function onEachFeature(feature, layer) {
@@ -163,7 +179,6 @@
 
       function highlightFeature(e) {
         if (!dsblHov) {
-          //console.info("false");
           var layer = e.target;
           layer.setStyle({
             weight: 1,
@@ -175,8 +190,7 @@
           if (!L.Browser.ie && !L.Browser.opera) {
             layer.bringToFront();
           }
-
-          info.update(layer.feature.properties);
+          info.update(layer.feature.properties.valores[0]);
         }
       }
 

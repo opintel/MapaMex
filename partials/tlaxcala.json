@@ -1,0 +1,35 @@
+{
+ "valor_info": "29",
+ "porcentaje_pop": 77,
+ "estado": "Tlaxcala",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 110
+   },
+   {
+     "tiempo": "2009",
+     "valor": 86
+   },
+   {
+     "tiempo": "2010",
+     "valor": 90
+   },
+   {
+     "tiempo": "2011",
+     "valor": 105
+   },
+   {
+     "tiempo": "2012",
+     "valor": 110
+   },
+   {
+     "tiempo": "2013",
+     "valor": 120
+   },
+   {
+     "tiempo": "2014",
+     "valor": 130
+   }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "valor_info": "11",
+ "porcentaje_pop": 62,
+ "estado": "Guanajuato",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 40
+   },
+   {
+     "tiempo": "2009",
+     "valor": 54
+   },
+   {
+     "tiempo": "2010",
+     "valor": 60
+   },
+   {
+     "tiempo": "2011",
+     "valor": 72
+   },
+   {
+     "tiempo": "2012",
+     "valor": 149
+   },
+   {
+     "tiempo": "2013",
+     "valor": 157
+   },
+   {
+     "tiempo": "2014",
+     "valor": 147
+   }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "valor_info": "28",
+ "porcentaje_pop": 5,
+ "estado": "Tamaulipas",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 364
+   },
+   {
+     "tiempo": "2009",
+     "valor": 374
+   },
+   {
+     "tiempo": "2010",
+     "valor": 411
+   },
+   {
+     "tiempo": "2011",
+     "valor": 404
+   },
+   {
+     "tiempo": "2012",
+     "valor": 392
+   },
+   {
+     "tiempo": "2013",
+     "valor": 382
+   },
+   {
+     "tiempo": "2014",
+     "valor": 371
+   }
+ ]
+}

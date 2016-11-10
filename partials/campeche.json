@@ -1,0 +1,35 @@
+{
+ "valor_info": "04",
+ "porcentaje_pop": 12,
+ "estado": "Campeche",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 220
+   },
+   {
+     "tiempo": "2009",
+     "valor": 230
+   },
+   {
+     "tiempo": "2010",
+     "valor": 240
+   },
+   {
+     "tiempo": "2011",
+     "valor": 251
+   },
+   {
+     "tiempo": "2012",
+     "valor": 261
+   },
+   {
+     "tiempo": "2013",
+     "valor": 270
+   },
+   {
+     "tiempo": "2014",
+     "valor": 280
+   }
+ ]
+}

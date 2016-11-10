@@ -1,0 +1,35 @@
+{
+ "estado": "Jalisco",
+ "valor_info": "14",
+ "porcentaje_pop": 99,
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 145
+   },
+   {
+     "tiempo": "2009",
+     "valor": 157
+   },
+   {
+     "tiempo": "2010",
+     "valor": 164
+   },
+   {
+     "tiempo": "2011",
+     "valor": 172
+   },
+   {
+     "tiempo": "2012",
+     "valor": 183
+   },
+   {
+     "tiempo": "2013",
+     "valor": 198
+   },
+   {
+     "tiempo": "2014",
+     "valor": 201
+   }
+ ]
+}

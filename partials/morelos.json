@@ -1,0 +1,35 @@
+{
+  "valor_info": "17",
+  "porcentaje_pop": 10,
+  "estado": "Morelos",
+  "grafica": [
+    {
+      "tiempo": "2008",
+      "valor": 131
+    },
+    {
+      "tiempo": "2009",
+      "valor": 120
+    },
+    {
+      "tiempo": "2010",
+      "valor": 110
+    },
+    {
+      "tiempo": "2011",
+      "valor": 100
+    },
+    {
+      "tiempo": "2012",
+      "valor": 90
+    },
+    {
+      "tiempo": "2013",
+      "valor": 80
+    },
+    {
+      "tiempo": "2014",
+      "valor": 70
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+ "valor_info": "01",
+ "porcentaje_pop": 77,
+ "estado": "Aguascalientes",
+ "grafica": [
+   {
+     "tiempo": "2008",
+     "valor": 26
+   },
+   {
+     "tiempo": "2009",
+     "valor": 38
+   },
+   {
+     "tiempo": "2010",
+     "valor": 43
+   },
+   {
+     "tiempo": "2011",
+     "valor": 58
+   },
+   {
+     "tiempo": "2012",
+     "valor": 61
+   },
+   {
+     "tiempo": "2013",
+     "valor": 72
+   },
+   {
+     "tiempo": "2014",
+     "valor": 86
+   }
+ ]
+}

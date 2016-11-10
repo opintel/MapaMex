@@ -1,0 +1,35 @@
+{
+  "valor_info": "27",
+  "estado": "Tabasco",
+  "porcentaje_pop": 7,
+  "grafica": [
+    {
+      "tiempo": "2008",
+      "valor": 164
+    },
+    {
+      "tiempo": "2009",
+      "valor": 172
+    },
+    {
+      "tiempo": "2010",
+      "valor": 184
+    },
+    {
+      "tiempo": "2011",
+      "valor": 176
+    },
+    {
+      "tiempo": "2012",
+      "valor": 161
+    },
+    {
+      "tiempo": "2013",
+      "valor": 157
+    },
+    {
+      "tiempo": "2014",
+      "valor": 146
+    }
+  ]
+}
