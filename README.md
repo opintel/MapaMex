@@ -8,7 +8,7 @@ Descripción de archivos principales:
   * Archivo `js` con diversas funcionalidades (`js/mapa.js`)
   * **Contendor para la gráfica**, que en este caso se debe definir en el html como: `<div id="mapMX" class="map"></div>`
   
-- `partials/mxGeo.json`<br>- **Json base** para definir los valores que mostrará la visualización.<br><br>
+- `partials/mxGeo.json`<br>- **GeoJson** con coordenadas para dibujar los polígonos de cada estado y en donde se definen los valores que mostrará la visualización en general y por cada estado.<br><br>
 
 - `js/mapa.js`<br>- Javascript que contiene las funcionalidades **necesarias** para dibujar la visualización.
 <br>
@@ -17,9 +17,9 @@ Para probar las visualizaciones en local, es necesario montar el proyecto en un 
 
 ##Json base
 
-El Json que consumirá la visualización debe estar en todo momento dentro del folder `partials` y debe tener asignado el nombre `barchart_example.json`<br>
+El Json que consumirá la visualización debe estar en todo momento dentro del folder `partials` o en su defecto cambiar la ruta en la llamada Ajax dentro de `js/mapa.js`. Además debe tener asignado el nombre `mxGeo.json`<br>
 
-La **estructura** debe ser igual a la del archivo `barchart_example.json`, si exisite alguna diferencia, por mínima que sea, la gráfica no se visualizará en el navegador.
+La **estructura** debe ser igual a la del archivo `mxGeo.json`, si exisite alguna diferencia, por mínima que sea, la gráfica no se visualizará en el navegador.
 
 Además los **nombres** o `keys` de los valores deben ser iguales a los dej Json de ejemplo para que estos se puedan mostrar en la visualización.
 
